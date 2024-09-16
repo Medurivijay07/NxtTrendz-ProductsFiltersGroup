@@ -1,0 +1,54 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+.stars-image-width {
+  width: 50%;
+}
+
+.stars-container {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.clear-filter-button {
+  color: #0967d2;
+  border: 1px #0967d2 solid;
+  border-radius: 7px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  outline: none;
+}
+/* Write your CSS here */
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.category-button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+  margin-bottom: 10px;
+}
